@@ -1,16 +1,39 @@
-Scripts to automatically generate iOS icons and launch images in the right sizes and asset catalogs.
+## What is?
 
-Tested with Xcode 5 and 6, iOS 7 and 8.
+Scripts to automatically generate iOS icons and launch images in the correct sizes. Also contains optimal asset catalogs with reused images for identical sizes.
 
-Credits for the fisi graphics go to Rasmus Makwarth / Opbeat.
+Tested with Xcode 5,6 and iOS 6-8.
 
-For best results
+No dependencies.
 
-Default-Input.png:
+## Usage
+
+`Default-Input.png` and `Icon-Input.png` contain the initial graphics for the launch image and icons respectively.
+
+From Terminal run:
+
+`./CreateiOSLaunchImages.sh`
+
+and
+
+`./CreateiOSIcons.sh`
+
+to create all necessary size variants.
+
+### Optional
+
+Remove variants that are not needed (e.g. iPad Portrait) from the catalogs to optimize app size.
+
+## For best results
+
+`Default-Input.png`:
 * Landscape
 * Aspect ratio 4:3 (with content croppable to 16:9)
 * Highest quality if at least 2208px wide
 
-Icon-Input.png:
+`Icon-Input.png`:
 * Square (1:1 aspect ratio)
 * Highest quality if at least 1024x1024px
+
+## Credits
+Rasmus Makwarth / Opbeat for the fisi graphics.
