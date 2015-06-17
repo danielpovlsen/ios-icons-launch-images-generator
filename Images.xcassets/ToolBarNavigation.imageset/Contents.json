@@ -1,0 +1,29 @@
+{
+  "images" : [
+    {
+      "size" : "66x66",
+      "idiom" : "iphone",
+      "filename" : "Icon66.png",
+      "scale" : "3x"
+    },
+    {
+      "size" : "44x44",
+      "idiom" : "iphone",
+      "filename" : "Icon44.png",
+      "scale" : "2x"
+    },
+    {
+      "size" : "22x22",
+      "idiom" : "iphone",
+      "filename" : "Icon822.png",
+      "scale" : "1x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  },
+  "properties" : {
+    "pre-rendered" : true
+  }
+}
