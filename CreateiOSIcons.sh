@@ -63,6 +63,34 @@ sips -Z 76 Images.xcassets/AppIcon.appiconset/Icon152.png --out Images.xcassets/
 #sips -Z 120 Icon-Input.png --out Images.xcassets/AppIcon.appiconset/Icon120.png # duplicate
 
 
+# Apple Watch
+# Notification Center
+# 38mm, 42mm
+sips -Z 48 Icon-Input.png --out Images.xcassets/AppIcon.appiconset/Icon48.png
+sips -Z 55 Icon-Input.png --out Images.xcassets/AppIcon.appiconset/Icon55.png
+
+# Apple Watch
+# Companion Settings
+# 29pt 2x,3x
+#sips -Z 58 Icon-Input.png --out Images.xcassets/AppIcon.appiconset/Icon58.png # duplicate
+#sips -Z 87 Icon-Input.png --out Images.xcassets/AppIcon.appiconset/Icon87.png # duplicate
+
+# Apple Watch
+# Home Screen (All)
+# Long Look (38mm)
+#sips -Z 80 Icon-Input.png --out Images.xcassets/AppIcon.appiconset/Icon80.png # duplicate
+
+# Apple Watch
+# Long Look (42mm)
+sips -Z 88 Icon-Input.png --out Images.xcassets/AppIcon.appiconset/Icon88.png
+
+# Apple Watch
+# Short Look
+# 38mm, 42mm
+sips -Z 172 Icon-Input.png --out Images.xcassets/AppIcon.appiconset/Icon172.png
+sips -Z 196 Icon-Input.png --out Images.xcassets/AppIcon.appiconset/Icon196.png
+
+
 # OS X
 # 512pt 1x,2x
 sips -Z 1024 Icon-Input.png --out Images.xcassets/AppIcon.appiconset/Icon1024.png
