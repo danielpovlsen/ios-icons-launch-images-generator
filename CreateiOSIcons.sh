@@ -26,6 +26,7 @@ sips -Z 57 Images.xcassets/AppIcon.appiconset/Icon114.png --out Images.xcassets/
 sips -Z 180 Icon-Input.png --out Images.xcassets/AppIcon.appiconset/Icon180.png
 #sips -Z 120 Icon-Input.png --out Images.xcassets/AppIcon.appiconset/Icon120.png # duplicate
 
+
 # iPad
 # Settings iOS 5-8
 #sips -Z 58 Icon-Input.png --out Images.xcassets/AppIcon.appiconset/Icon58.png # duplicate
@@ -54,6 +55,13 @@ sips -Z 72 Images.xcassets/AppIcon.appiconset/Icon144.png --out Images.xcassets/
 # 76pt 1x,2x
 sips -Z 152 Icon-Input.png --out Images.xcassets/AppIcon.appiconset/Icon152.png
 sips -Z 76 Images.xcassets/AppIcon.appiconset/Icon152.png --out Images.xcassets/AppIcon.appiconset/Icon76.png
+
+
+# CarPlay
+# App iOS 8
+# 120pt 1x
+#sips -Z 120 Icon-Input.png --out Images.xcassets/AppIcon.appiconset/Icon120.png # duplicate
+
 
 # OS X
 # 512pt 1x,2x
