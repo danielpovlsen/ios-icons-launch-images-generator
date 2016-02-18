@@ -1,0 +1,7 @@
+# OSX
+#
+.DS_Store
+
+# Generated Images
+Images.xcassets/AppIcon.appiconset/*.png
+Images.xcassets/LaunchImage.launchimage/*.png
