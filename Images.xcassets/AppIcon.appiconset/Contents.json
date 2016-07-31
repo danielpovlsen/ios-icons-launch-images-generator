@@ -121,10 +121,16 @@
       "scale" : "2x"
     },
     {
-      "size" : "120x120",
+      "size" : "60x60",
       "idiom" : "car",
       "filename" : "Icon120.png",
-      "scale" : "1x"
+      "scale" : "2x"
+    },
+    {
+      "size" : "60x60",
+      "idiom" : "car",
+      "filename" : "Icon180.png",
+      "scale" : "3x"
     },
     {
       "size" : "24x24",

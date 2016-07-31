@@ -64,7 +64,8 @@ sips -Z 167 Icon-Input.png --out Images.xcassets/AppIcon.appiconset/Icon167.png
 
 # CarPlay
 # App iOS 8
-# 120pt 1x
+# 60pt 2x,3x
+#sips -Z 180 Icon-Input.png --out Images.xcassets/AppIcon.appiconset/Icon180.png # duplicate
 #sips -Z 120 Icon-Input.png --out Images.xcassets/AppIcon.appiconset/Icon120.png # duplicate
 
 
