@@ -56,6 +56,11 @@ sips -Z 72 Images.xcassets/AppIcon.appiconset/Icon144.png --out Images.xcassets/
 sips -Z 152 Icon-Input.png --out Images.xcassets/AppIcon.appiconset/Icon152.png
 sips -Z 76 Images.xcassets/AppIcon.appiconset/Icon152.png --out Images.xcassets/AppIcon.appiconset/Icon76.png
 
+# iPad Pro 12.9"
+# App iOS 9
+# 83.5pt 2x
+sips -Z 167 Icon-Input.png --out Images.xcassets/AppIcon.appiconset/Icon167.png
+
 
 # CarPlay
 # App iOS 8
