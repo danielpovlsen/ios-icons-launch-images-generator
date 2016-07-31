@@ -1,7 +1,7 @@
 ## What is?
 Scripts to automatically generate iOS icons and launch images in the correct sizes. Also contains optimal asset catalogs with reused images for identical sizes.
 
-Tested with Xcode 5,6 and iOS 6-8.
+Tested with Xcode 7 and iOS 6-9.
 
 No dependencies.
 
