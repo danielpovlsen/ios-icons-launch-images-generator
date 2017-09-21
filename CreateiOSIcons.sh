@@ -2,14 +2,14 @@
 
 # iPhone
 # Spotlight - iOS 5,6
-# Settings - iOS 5-9
-# 29pt - 1x,2x,3x
+# Settings - iOS 5-11
+# 29pt 1x,2x,3x
 sips -Z 87 Icon-Input.png --out Images.xcassets/AppIcon.appiconset/Icon87.png
 sips -Z 58 Icon-Input.png --out Images.xcassets/AppIcon.appiconset/Icon58.png
 sips -Z 29 Images.xcassets/AppIcon.appiconset/Icon58.png --out Images.xcassets/AppIcon.appiconset/Icon29.png
 
 # iPhone
-# Spotlight - iOS 7-9
+# Spotlight - iOS 7-11
 # 40pt 2x,3x
 sips -Z 120 Icon-Input.png --out Images.xcassets/AppIcon.appiconset/Icon120.png
 sips -Z 80 Icon-Input.png --out Images.xcassets/AppIcon.appiconset/Icon80.png
@@ -21,22 +21,28 @@ sips -Z 114 Icon-Input.png --out Images.xcassets/AppIcon.appiconset/Icon114.png
 sips -Z 57 Images.xcassets/AppIcon.appiconset/Icon114.png --out Images.xcassets/AppIcon.appiconset/Icon57.png
 
 # iPhone
-# App - iOS 7-9
+# App - iOS 7-11
 # 60pt 2x,3x
 sips -Z 180 Icon-Input.png --out Images.xcassets/AppIcon.appiconset/Icon180.png
 #sips -Z 120 Icon-Input.png --out Images.xcassets/AppIcon.appiconset/Icon120.png # duplicate
 
+# iPhone
+# Notification - iOS 7-11
+# 20pt 2x,3x
+sips -Z 60 Images.xcassets/AppIcon.appiconset/Icon120.png --out Images.xcassets/AppIcon.appiconset/Icon60.png
+sips -Z 40 Images.xcassets/AppIcon.appiconset/Icon80.png --out Images.xcassets/AppIcon.appiconset/Icon40.png
+
 
 # iPad
-# Settings iOS 5-9
+# Settings iOS 5-11
 #sips -Z 58 Icon-Input.png --out Images.xcassets/AppIcon.appiconset/Icon58.png # duplicate
 #sips -Z 29 Images.xcassets/AppIcon.appiconset/Icon58.png --out Images.xcassets/AppIcon.appiconset/Icon29.png # duplicate
 
 # iPad
-# Spotlight iOS 7-9
+# Spotlight iOS 7-11
 # 40pt 1x,2x
 #sips -Z 80 Icon-Input.png --out Images.xcassets/AppIcon.appiconset/Icon80.png # duplicate
-sips -Z 40 Images.xcassets/AppIcon.appiconset/Icon80.png --out Images.xcassets/AppIcon.appiconset/Icon40.png
+#sips -Z 40 Images.xcassets/AppIcon.appiconset/Icon80.png --out Images.xcassets/AppIcon.appiconset/Icon40.png # duplicate
 
 # iPad
 # Spotlight iOS 5,6
@@ -51,19 +57,25 @@ sips -Z 144 Icon-Input.png --out Images.xcassets/AppIcon.appiconset/Icon144.png
 sips -Z 72 Images.xcassets/AppIcon.appiconset/Icon144.png --out Images.xcassets/AppIcon.appiconset/Icon72.png
 
 # iPad
-# App iOS 7-9
+# App iOS 7-11
 # 76pt 1x,2x
 sips -Z 152 Icon-Input.png --out Images.xcassets/AppIcon.appiconset/Icon152.png
 sips -Z 76 Images.xcassets/AppIcon.appiconset/Icon152.png --out Images.xcassets/AppIcon.appiconset/Icon76.png
 
 # iPad Pro 12.9"
-# App iOS 9
+# App iOS 9-11
 # 83.5pt 2x
 sips -Z 167 Icon-Input.png --out Images.xcassets/AppIcon.appiconset/Icon167.png
 
+# iPad
+# Notification - iOS 7-11
+# 20pt 1x,2x
+#sips -Z 40 Images.xcassets/AppIcon.appiconset/Icon80.png --out Images.xcassets/AppIcon.appiconset/Icon40.png # duplicate
+sips -Z 20 Images.xcassets/AppIcon.appiconset/Icon40.png --out Images.xcassets/AppIcon.appiconset/Icon20.png
+
 
 # CarPlay
-# App iOS 8
+# App
 # 60pt 2x,3x
 #sips -Z 180 Icon-Input.png --out Images.xcassets/AppIcon.appiconset/Icon180.png # duplicate
 #sips -Z 120 Icon-Input.png --out Images.xcassets/AppIcon.appiconset/Icon120.png # duplicate
