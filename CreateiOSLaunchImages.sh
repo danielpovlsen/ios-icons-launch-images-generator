@@ -19,6 +19,7 @@ sips -Z 2436 -c 1125 2436 Default-Input.png --out Images.xcassets/LaunchImage.la
 # iPhone X @3x - portrait
 sips -r 90 Images.xcassets/LaunchImage.launchimage/Default2436x1125.png --out Images.xcassets/LaunchImage.launchimage/Default1125x2436.png
 
+
 # iPad @2x - landscape
 sips -Z 2048 Default-Input.png --out Images.xcassets/LaunchImage.launchimage/Default2048x1536.png
 # iPad @2x - portrait
@@ -27,3 +28,9 @@ sips -r 90 Images.xcassets/LaunchImage.launchimage/Default2048x1536.png --out Im
 sips -Z 1024 Images.xcassets/LaunchImage.launchimage/Default2048x1536.png --out Images.xcassets/LaunchImage.launchimage/Default1024x768.png
 # iPad @1x - portrait
 sips -r 90 Images.xcassets/LaunchImage.launchimage/Default1024x768.png --out Images.xcassets/LaunchImage.launchimage/Default768x1024.png
+
+
+# Apple TV @2x
+sips -Z 3840 -c 2160 3840 Default-Input.png --out Images.xcassets/LaunchImage.launchimage/Default3840x2160.png
+# Apple TV @1x
+sips -Z 1920 Images.xcassets/LaunchImage.launchimage/Default3840x2160.png --out Images.xcassets/LaunchImage.launchimage/Default1920x1080.png
