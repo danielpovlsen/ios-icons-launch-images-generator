@@ -14,6 +14,11 @@ sips -r 90 Images.xcassets/LaunchImage.launchimage/Default2208x1242.png --out Im
 # iPhone 4.7" @2x
 sips -Z 1334 -c 750 1334 -r 90 Default-Input.png --out Images.xcassets/LaunchImage.launchimage/Default750x1334.png
 
+# iPhone X @3x - landscape
+sips -Z 2436 -c 1125 2436 Default-Input.png --out Images.xcassets/LaunchImage.launchimage/Default2436x1125.png
+# iPhone X @3x - portrait
+sips -r 90 Images.xcassets/LaunchImage.launchimage/Default2436x1125.png --out Images.xcassets/LaunchImage.launchimage/Default1125x2436.png
+
 # iPad @2x - landscape
 sips -Z 2048 Default-Input.png --out Images.xcassets/LaunchImage.launchimage/Default2048x1536.png
 # iPad @2x - portrait

@@ -32,7 +32,7 @@ Remove variants that are not needed (e.g. iPad Portrait) from the catalogs to op
 `Default-Input.png`:
 * Landscape
 * Aspect ratio 4:3 (with content croppable to 16:9)
-* Highest quality if at least 2208px wide
+* Highest quality if at least 2436px wide
 
 `Icon-Input.png`:
 
